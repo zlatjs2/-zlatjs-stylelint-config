@@ -1,0 +1,22 @@
+{
+  "name": "@zlatjs/stylelint-config",
+  "version": "1.0.0",
+  "description": "SCSS modules config for stylelint",
+  "main": "index.js",
+  "repository": "https://github.com/zlatjs2/stylelint-config",
+  "author": "zlatjs <seonmidev@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "scss",
+    "bem"
+  ],
+  "scripts": {
+    "stylelint": "stylelint 'src/**/*.scss'"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.2.0",
+    "stylelint-selector-bem-pattern": "^2.0.0"
+  }
+}
